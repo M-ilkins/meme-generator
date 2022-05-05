@@ -7,7 +7,7 @@ import styles from './index.css';
 
 export default function App() {
     return (
-        <div className='page-wrapper'>
+        <div>
           <Header/>
           <main>
             <Form/>
