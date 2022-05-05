@@ -7,6 +7,10 @@ export default function Meme(){
     let randURL = memeData.data.memes[randNum].url;
 
     return (
-      <img src={randURL}></img>
+      <figure className='meme-container'>
+        <img src={randURL}></img>
+        <p className='bottom'>Top</p>
+        <p className='top'>Bottom</p>
+      </figure>
     );
 };

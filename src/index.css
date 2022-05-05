@@ -49,3 +49,21 @@ button {
     width: 100%;
     background: linear-gradient(90deg, rgba(103,34,128,1) 35%, rgba(166,38,211,1) 100%);
 }
+
+.meme-container {
+    position: relative;
+}
+
+.bottom, .top {
+    position: absolute;
+    color: black;
+    left: 50%;
+}
+
+.bottom {
+    bottom: 20%;
+}
+
+.top {
+    bottom: 80%;
+}
